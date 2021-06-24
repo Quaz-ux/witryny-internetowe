@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+@font-face {
+      font-family: 'fontello';
+      src: url('./font/fontello.eot?69340937');
+      src: url('./font/fontello.eot?69340937#iefix') format('embedded-opentype'),
+           url('./font/fontello.woff?69340937') format('woff'),
+           url('./font/fontello.ttf?69340937') format('truetype'),
+           url('./font/fontello.svg?69340937#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+body
+{
+	font-family: "Josefin Sans";
+	font-size: 14px;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo
+{
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding: 15px;
+}
+#nav
+{
+	float:left;
+	background-color:#b3e6ff;
+	width: 200px;
+	min-height: 750px;
+	padding: 10px;
+ 
+}
+
+#content
+{
+	float:left;
+	padding: 20px;
+	width: 560px;
+	background-color: #e6f7ff;
+	min-height: 730px;
+	margin: left;
+	text-align: justify;
+	line-height: 1.25;
+}
+
+#ad
+{
+	float:left;
+	width: 160px;
+	min-height: 750px;
+	padding:10px;
+	background-color: #b3e6ff;
+}
+
+#footer
+{
+	clear: both;
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding: 20px;
+}
+#logowanie
+{
+	float: right;
+	background-color:#b3e6ff
+}
+#login
+{
+	float:top;
+	min-height: 10px;
+	padding:10px;
+	background-color:#b3e6ff;
+}
+#przycisk
+{
+	background-color: #cceeff;
+}

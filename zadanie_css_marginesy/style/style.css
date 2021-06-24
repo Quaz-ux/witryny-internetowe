@@ -1,0 +1,59 @@
+.klasa_1
+{
+    background-image: url(../grafiki/tlo_1.jpg);
+    background-repeat: repeat;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    padding: 30px;
+}
+
+.klasa_2
+{
+    background-color: lime;
+    background-image: url(../grafiki/tlo_1.jpg);
+    background-repeat: repeat-x;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding-left: : 80px 50px;
+}
+
+.klasa_3
+{
+    background-color: lime;
+    background-image: url(../grafiki/tlo_1.jpg);
+    background-repeat: repeat-y;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    padding: 30px 50px 70px 120px;
+}
+
+.klasa_4
+{
+    background-color: lime;
+    background-image: url(../grafiki/tlo_1.jpg);
+    background-repeat: no-repeat;
+    margin: 100px;
+    padding: 80px 40px 50px 120px;
+}
+
+.klasa_5
+{
+    background-color: lime;
+    background-image: url(../grafiki/tlo_1.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    margin:100px;
+    padding: 80px 120px 50px 40px;
+    text-align: right;
+}
+
+.klasa_6
+{
+    background-color: lime;
+    background-image: url(../grafiki/tlo_1.jpg);
+    background-repeat: repeat-y;
+    background-position: 5%;
+    background-attachment: fixed;
+    margin:20px 30px 70px 10px;
+    padding: 30px 40px 30px 140px;
+}

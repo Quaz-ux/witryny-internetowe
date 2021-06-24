@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wskazania do strony Top songs</title>
+	<style type="text/css">
+		body
+		{
+			font-family: Verdana;
+			font-size: 30px;
+			line-height: 150%;
+			background: #cccccc;
+			padding: 15px;
+			text-align: justify;
+		}
+		#dwa
+		{
+			margin: 10px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			border: 5px solid black;
+
+		}
+		h1
+		{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+
+<h1>
+Zadanie 1
+</h1>
+<img src="screen.jpg" id="dwa">
+
+<p>Strona jest podzielona na 5 sekcji (wersja na ocenę celującą - patrz punkt 3 podpunkt b) lub na 5 podstron (na ocenę bardzo dobrą) dotyczących poszczególnych utworów. W pliku 'top_songs_tekst.doc' znajduje się tekst, który należy umiescić na stronie. Wszelkie własne modyfikacje są dozwolone, pod warunkiem spełnienia warunków opisanych poniżej. Można wstawić dodatkową grafikę, link do piosenki itp. Pamiętaj, aby nie zaburzyć całej koncepcji strony</p>
+
+<p>Wytyczne do stworzenia strony: (wraz z ewentualnymi podstonami, wszystkie podstrony mają to samo formatowanie, róznią się tylko zawartościa głównego bloku)</p>
+<ol>
+	<li>Kodowanie polskich znaków</li>
+	<li>Podział strony na 6 sekcji: nagłówek, logowanie, nawigacja, głowna zawartość strony, rekalma i stopka wykonany za pomocą grida
+		<ol type='a'>
+			<li>
+				Dla całej strony ustawiono: szerokość 1000px, czcionka Josefin Sans (google fonts)
+			</li>
+			<li>
+				Nagłowek: kolor tła czarny, czcionka biała, tekst wyśrodkowany, margines wewnętrzny górny 15px. W nagłówku należy stawić ikonę słuchawek, lub inną kojarzącą się z muzyką, pobraną oczywiscie z fontello :)
+			</li>
+			<li>
+				Nawigacja: kolor tła: #b3e6ff, szerokość 200px, minimalna wysokość 750px; marginesy wewnętrzne 10px, kursor pointer, wysokość linii 150%, usuniecie podkreślenia tekstu, przesunięcie sekcji w lewo(float). Nalezy wstawić 5 odnośników do podstron (lub sekcji) w formie listy. Po najechaniu myszką na odnośnik: wielkość czcionki zostaje ustawiona na 25px, cieniowanie tekstu na: 1px 1px 1px kolor czarny
+			</li>
+			<li>
+				Logowanie: szerokość 1000px, kolor tła #b3e6ff, wysokość 30px, margines wewnętrzny górny 15px
+			</li>
+			<li>	
+				elementy formularza: 
+				<ul>
+					<li>tekstowy: kolor tła #cceeff, obramowanie 2px linia ciągła kolor #cceeff;</li>
+					<li>przycisk: kolor tła  #3399ff, obramowanie 2px linia ciągła kolor #3399ff</li>
+				</li>
+			</ul>
+				
+				
+				
+			<li>
+				Głowna zawartość strony: margines wewnętrzny 20px, szerokość 560px, wyrównanie tekstu od lewej do prawej. wysokość linii 1.25, kolor tła #e6f7ff, minimalna wysokośc 730px (dopasuj wyskość elementów do siebie!!!)
+			</li>
+			<li>	
+				reklama: szerokośc 160px minimalna wysokość 750px, margines wewnętrzny górny 30px, marginesy wewnętrzne 10px, kolor tła #b3e6ff. W tej sekcji nalezy wstawić grafikę 'reklama.jpg' i ustawić jej margines zewnętrzny górny na 50px
+			</li>
+			<li>
+				Stopka: kolor tła czarny, kolor czcionki biały, wyrównanie tekstu do środka, margines wewnetrzny górny 20px 
+			</li>
+			</ol>
+		</ul>
+
+	
+	</li>
+	<li>
+		
+	Skrypty:
+	<ol type="a">
+		<li>
+			"Pseudo logowanie (obowiązkowy dla wszystkich): skrypt pobiera dane z elementu input wprowadzone przez użytkownika i na jego podstawie, po kliknięciu przycisku 'zaloguj' wyświetla informacje: "Jesteś zalogowany jako 'imie uzytkownika'":
+			<img src="screen_logowanie.jpg" id="dwa">
+		</li>
+		<li>
+			(opcjonalny na ocenę celującą) Cała strona mieści się w jednym pliku. Poszczególne elementy sekcji mają nadane pozycjonowanie ukryte, które zmieniane jest na liniowe za pomocą js.<br>
+			Sugestia: pobierz tablicę elementów składajacą się z odnośników (uzyj klasy lub id) za pomocą document.getElementsByClassName() lub document.querySelectorAll(), ustaw im atrybut o dowolnej nazwie z unikalną wartością dla każdego z nich (tu warto poczytać o nadawaniu i pobieraniu atrybutów). Za pomocą pętli forEach dodaj do elementów tablicy zdarzenie, agrumentem funcji bedzie atrybut.
+		</li>
+	</ol type="a">
+	
+
+	
+
+	</li>
+</ol>
+
+
+
+
+</body>
+</html>

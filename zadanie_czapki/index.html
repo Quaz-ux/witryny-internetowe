@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Czapki na sprzedaż</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css
+	">
+	<script type="text/javascript" src='skrypty.js' defer></script>
+</head>
+<body>
+
+	<div id="content">
+		<header>
+
+			<figure>
+				<img src="stoch.jpg">
+			</figure>
+			<h1>Sklep z czapkami</h1>
+			<h2>Czapkolandia</h2>
+			
+		</header>
+		<nav>
+			<ul>
+				<li>Podstrona</li>
+				<li>Podstrona</li>
+				<li>Podstrona</li>
+				<li>Podstrona</li>
+			</ul>
+		</nav>
+		<main>
+			<h1>Złóż zamówienie</h1>
+			<select id="czapka" class="form">
+				<option value="25">czapka zimowa</option>
+				<option value="100">czapka niewidka</option>
+				<option value="50">czapka z daszkiem</option>
+				<option value="70">czapka lotnika</option>
+			</select>
+			<p>Ile czapek zamawiasz
+			<input type="number" id="ile" class="form"></p>
+			<p>Czy posiadasz kartę stałego klienta
+			<input type="checkbox" id="klient"></p>
+			<p>Wybierz sposób dostawy</p>
+
+			<p>Kurier - 30zł<input type="radio" name="dost" id="kurier">
+
+			Paczkomat - 10zł<input type="radio" name="dost" id="paczkomat">
+			Poczta - 15zł<input type="radio" name="dost"></p>
+
+			<input type="submit" id="klik" value="zamów" class="form">
+			<div id="wypisz"></div>
+		</main>
+		<aside>
+			<table>
+				<tr><th>LP</th><th>Nazwa towaru</th><th>Cena</th></tr>
+				<tr><td>1</td><td>Czapka zimowa</td><td>25 zł</td></tr>
+				<tr><td>2</td><td>Czapka niewidka</td><td>100 zł</td></tr>
+				<tr><td>3</td><td>Czapka z daszkiem</td><td>50 zł</td></tr>
+				<tr><td>4</td><td>Czapka lotnika</td><td>70 zł</td></tr>
+			</table>
+		</aside>
+		<footer>Wszystkie prawa należą do ich właścicieli &copy; 2021</footer>
+		
+	</div>
+
+</body>
+</html>
