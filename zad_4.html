@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zadanie 4</title>
+	<meta charset="utf-8">
+
+</head>
+<body>
+		<div id="przywitanie"></div>
+<script type="text/javascript">
+	function Klient(imie, nazwisko, adres) 
+		{
+			this.imie = imie;
+			this.nazwisko = nazwisko;
+			this.adres = adres;
+		}
+
+		let klient = new Klient("Jan", "Kowalski", "Studzienna 12");
+
+
+		przywitanie.innerHTML = "Witam serdecznie "+klient.imie+" "+klient.nazwisko;
+</script>
+</body>
+</html>

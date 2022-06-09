@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zadanie 4</title>
+	<meta charset="utf-8">
+
+</head>
+<body>
+		<div id="walka"></div>
+<script type="text/javascript">
+	function Potwor(nazwa, sila, zrecznosc, wytrzymalosc, zasieg) 
+		{
+			this.nazwa = nazwa;
+			this.sila = sila;
+			this.zrecznosc = zrecznosc;
+			this.wytrzymalosc = wytrzymalosc;
+			this.zasieg = zasieg;
+		}
+
+		let potwor_murloc = new Potwor("Murloc", 20, 100, 24, 15);
+		let potwor_troll = new Potwor("Troll", 75, 20, 44, 30);
+		let potwor_ork = new Potwor("Ork", 80, 11, 50, 25);
+
+		function Walka(przeciwnik_1, przeciwnik_2)
+		{
+			walka.innerHTML += "W pojedunku wezmą udział: " +przeciwnik_1.nazwa+ " oraz " +przeciwnik_2.nazwa+ "<br>";
+			if (przeciwnik_1.zasieg > przeciwnik_2.zasieg) 
+			{
+				walka.innerHTML += "Pojedynek wygrywa "+przeciwnik_1.nazwa+"!!! <br><br>";
+			}
+			else
+			{
+				walka.innerHTML += "Pojedynek wygrywa "+przeciwnik_2.nazwa+"!!! <br><br>";
+			}
+		}
+		Walka(potwor_ork, potwor_troll);
+		Walka(potwor_ork, potwor_murloc);
+		Walka(potwor_troll, potwor_murloc);
+
+		
+</script>
+</body>
+</html>
