@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wskazania do strony Stacja paliw</title>
+	<style type="text/css">
+		body
+		{
+			font-family: Verdana;
+			font-size: 30px;
+			line-height: 150%;
+			background: #cccccc;
+			padding: 15px;
+			text-align: justify;
+		}
+		#dwa
+		{
+			margin: 10px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			border: 5px solid black;
+
+		}
+		h1
+		{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+
+
+<h1>
+Zadanie 6
+</h1>
+<div id="pictures">
+	<div>
+		<img src="zrzuty_ekranowe/screen1.jpg" id="dwa">
+	</div>
+</div>
+<p>To już jest 6 zadanie, czas na trochę samodzielności, szczególnie w pozycjonowaniu elementów. Podam tylko najważniejsze informacje dotyczące użytych kolorow i rozmiarów.</p>
+
+<p>Strona składa się z 4 paneli: nagłówek, nawigacja, panel główny i stopka  </p>
+
+<p>Wytyczne do stworzenia strony: </p>
+<ol>
+	<li>Kodowanie polskich znaków</li>
+	<li>
+		<ol type='a'>
+			<li>
+				Dla całej strony ustawiono obramowanie o grubości 2px linia ciągła w kolorze czarnym
+			</li>
+			<li>
+				
+				
+				
+					Nagłówek: 
+					<ul>
+						<li>Zawartość: nagłówek pierwszego stopnia o treści "Witamy na naszej stacji paliw" oraz zdjęcie pięknego samochodu :).</li>
+						<li>tło nagłówka to gradient linearny do prawej #008000, #0000ff, #4b0082, #ee82ee </li>
+					</ul>
+				
+			
+			</li>
+			<li>
+				Nawigacja: 
+				<ol>
+					<li>zawartość jak na zrzucie ekranowym</li>
+					<li>nawigacja stworzona listą, w której zawarte są odnośniki (pozycjonowanie elementów)</li>
+					<li>kolory tła użyte jak w gradiencie w wymienionej wyżej kolejności</li>
+					<li>po najechaniu myszką na elementy nawigacji tło rozjaśnia sie o 2 odcienie, a kurosr zmienia się na pointer</li>
+					<li>linki w nawigacji prowadzą donikąd (#)</li>
+					<li>należy dostosować szerokość elementów nawigacji w stosunku do szerokości całego dokumentu</li>
+				</ol>
+				
+			</li>
+			<li>
+				Zawartość panelu głównego:
+				<ol>
+					<li>jak na zrzutach ekranowych</li>
+					<li>kolor tła #dfb3ff dla wszystkich elementów panelu głównego</li>
+					<li>nagłówek drugiego stopnia o treści "Oblicz, ile potrzebujesz paliwa"</li>
+					<li>dwa pola typu numerycznego i jeden przycisk. Pola typu typu numerycznego mają ustowione obramowanie tylko dolne o grubości 1px linia ciągła kolor szary. Wysokość elementów to 25px, szerokośc 250px, wyrownaie tekstu do środka. Pole przycisku ma ustawioną wysokość na 40px. Wszystkim polom formularzy nalezy usunąc domyslne obramowanie. </li>
+					<li>W panelu lewym i prawym znajdują się grafiki załączone za pomoca css sprites. Plik oczywiście w załączniku, można też  wykorzystać inny. Jeśli ktoś nie umie posłużyc się css sprites, moze wyciąć poszczególne elementy z załącznika i wstawić je po prostu jako grafiki za pomocą tagu &lt;img&gt;</li>
+				</ol>
+			</li>
+			<li>Stopka ma formatowanie podobne do nagłowka strony (ten sam gradient). </li>
+			
+			
+			</ol>
+		
+<li>Skrypt:</li>
+<ul>
+	<li>pobiera dane z pól numerycznych</li>
+	<li>na ich podstawie oblicza ilość potrzebnego paliwa</li>
+	<li>wypisuje w głównym panelu informację : "Potrzebujesz 'ilość paliwa' litrów paliwa. Zapraszamy na zakupy'</li>
+	<li>dodaje event click do przycisku .Nie chcę widzieć onclick jako atrybutu w tagu html</li>
+	
+</ul>
+	
+
+
+
+
+
+</body>
+</html>
